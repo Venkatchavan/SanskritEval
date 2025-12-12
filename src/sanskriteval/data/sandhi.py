@@ -158,6 +158,19 @@ class SimpleSandhiSplitter:
             is_gold=False
         )
     
+    def segment(self, text: str) -> str:
+        """Simple interface for segmentation (used by evaluation).
+        
+        Args:
+            text: Fused Sanskrit text
+            
+        Returns:
+            Segmented text with spaces
+        """
+        example = self.split_verse(text)
+        return example.segmented
+
+    
     def mark_boundaries(self, text: str) -> List[Tuple[int, float]]:
         """Mark potential word boundaries with confidence scores.
         
