@@ -1,0 +1,482 @@
+{
+  "sample_size": 40,
+  "correct": 15,
+  "accuracy": 0.375,
+  "errors": [
+    {
+      "id": "morph_0001",
+      "phenomenon": "case",
+      "stem": "नित्य",
+      "grammatical": "नित्यअस्य",
+      "ungrammatical": "नित्यएन",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "genitive",
+        "incorrect_case": "instrumental",
+        "ending_from": "अस्य",
+        "ending_to": "एन"
+      },
+      "gram_score": -22.205045841634274,
+      "ungram_score": -17.33281147480011,
+      "margin": -4.872234366834164
+    },
+    {
+      "id": "morph_0002",
+      "phenomenon": "number",
+      "stem": "जनकादय",
+      "grammatical": "जनकादयआः",
+      "ungrammatical": "जनकादयऔ",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "plural",
+        "incorrect_number": "dual",
+        "ending_from": "आः",
+        "ending_to": "औ"
+      },
+      "gram_score": -38.661927938461304,
+      "ungram_score": -37.091304063797,
+      "margin": -1.5706238746643066
+    },
+    {
+      "id": "morph_0004",
+      "phenomenon": "case",
+      "stem": "गुडाकेश",
+      "grammatical": "गुडाकेशआत्",
+      "ungrammatical": "गुडाकेशः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "ablative",
+        "incorrect_case": "nominative",
+        "ending_from": "आत्",
+        "ending_to": "ः"
+      },
+      "gram_score": -35.051942586898804,
+      "ungram_score": -26.125404715538025,
+      "margin": -8.926537871360779
+    },
+    {
+      "id": "morph_0005",
+      "phenomenon": "case",
+      "stem": "मनीषिण",
+      "grammatical": "मनीषिणअस्य",
+      "ungrammatical": "मनीषिणः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "genitive",
+        "incorrect_case": "nominative",
+        "ending_from": "अस्य",
+        "ending_to": "ः"
+      },
+      "gram_score": -41.767382860183716,
+      "ungram_score": -28.312257766723633,
+      "margin": -13.455125093460083
+    },
+    {
+      "id": "morph_0006",
+      "phenomenon": "case",
+      "stem": "शीतोष्णसुखदुःखदा",
+      "grammatical": "शीतोष्णसुखदुःखदाअस्य",
+      "ungrammatical": "शीतोष्णसुखदुःखदाः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "genitive",
+        "incorrect_case": "nominative",
+        "ending_from": "अस्य",
+        "ending_to": "ः"
+      },
+      "gram_score": -62.979137390851974,
+      "ungram_score": -52.623260870575905,
+      "margin": -10.35587652027607
+    },
+    {
+      "id": "morph_0008",
+      "phenomenon": "case",
+      "stem": "कृपयाविष्टमश्रुपूर्णाकुलेक्षण",
+      "grammatical": "कृपयाविष्टमश्रुपूर्णाकुलेक्षणआय",
+      "ungrammatical": "कृपयाविष्टमश्रुपूर्णाकुलेक्षणः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "dative",
+        "incorrect_case": "nominative",
+        "ending_from": "आय",
+        "ending_to": "ः"
+      },
+      "gram_score": -82.57491874694824,
+      "ungram_score": -68.56579673290253,
+      "margin": -14.009122014045715
+    },
+    {
+      "id": "morph_0009",
+      "phenomenon": "case",
+      "stem": "मन",
+      "grammatical": "मनएन",
+      "ungrammatical": "मनए",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "instrumental",
+        "incorrect_case": "locative",
+        "ending_from": "एन",
+        "ending_to": "ए"
+      },
+      "gram_score": -19.521731853485107,
+      "ungram_score": -16.40701913833618,
+      "margin": -3.114712715148926
+    },
+    {
+      "id": "morph_0010",
+      "phenomenon": "case",
+      "stem": "गम",
+      "grammatical": "गमए",
+      "ungrammatical": "गमः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "locative",
+        "incorrect_case": "nominative",
+        "ending_from": "ए",
+        "ending_to": "ः"
+      },
+      "gram_score": -19.80830478668213,
+      "ungram_score": -17.418601989746094,
+      "margin": -2.389702796936035
+    },
+    {
+      "id": "morph_0011",
+      "phenomenon": "case",
+      "stem": "युद्धमीदृश",
+      "grammatical": "युद्धमीदृशए",
+      "ungrammatical": "युद्धमीदृशआत्",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "locative",
+        "incorrect_case": "ablative",
+        "ending_from": "ए",
+        "ending_to": "आत्"
+      },
+      "gram_score": -51.8156042098999,
+      "ungram_score": -49.03586935997009,
+      "margin": -2.7797348499298096
+    },
+    {
+      "id": "morph_0013",
+      "phenomenon": "case",
+      "stem": "तेऽवस्थिता",
+      "grammatical": "तेऽवस्थिताम्",
+      "ungrammatical": "तेऽवस्थिताआय",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "accusative",
+        "incorrect_case": "dative",
+        "ending_from": "म्",
+        "ending_to": "आय"
+      },
+      "gram_score": -34.62163968384266,
+      "ungram_score": -33.60104297101498,
+      "margin": -1.0205967128276825
+    },
+    {
+      "id": "morph_0015",
+      "phenomenon": "case",
+      "stem": "भोगा",
+      "grammatical": "भोगाआय",
+      "ungrammatical": "भोगाए",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "dative",
+        "incorrect_case": "locative",
+        "ending_from": "आय",
+        "ending_to": "ए"
+      },
+      "gram_score": -20.993807077407837,
+      "ungram_score": -15.81890082359314,
+      "margin": -5.174906253814697
+    },
+    {
+      "id": "morph_0016",
+      "phenomenon": "case",
+      "stem": "जनकादय",
+      "grammatical": "जनकादयअस्य",
+      "ungrammatical": "जनकादयआय",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "genitive",
+        "incorrect_case": "dative",
+        "ending_from": "अस्य",
+        "ending_to": "आय"
+      },
+      "gram_score": -41.172154664993286,
+      "ungram_score": -33.371774315834045,
+      "margin": -7.800380349159241
+    },
+    {
+      "id": "morph_0018",
+      "phenomenon": "number",
+      "stem": "सनातन",
+      "grammatical": "सनातनऔ",
+      "ungrammatical": "सनातनआः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "dual",
+        "incorrect_number": "plural",
+        "ending_from": "औ",
+        "ending_to": "आः"
+      },
+      "gram_score": -30.421805381774902,
+      "ungram_score": -28.269034385681152,
+      "margin": -2.15277099609375
+    },
+    {
+      "id": "morph_0020",
+      "phenomenon": "number",
+      "stem": "चेदह",
+      "grammatical": "चेदहआः",
+      "ungrammatical": "चेदहः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "plural",
+        "incorrect_number": "singular",
+        "ending_from": "आः",
+        "ending_to": "ः"
+      },
+      "gram_score": -36.69770669937134,
+      "ungram_score": -24.80443572998047,
+      "margin": -11.89327096939087
+    },
+    {
+      "id": "morph_0021",
+      "phenomenon": "case",
+      "stem": "सक्ता",
+      "grammatical": "सक्ताआत्",
+      "ungrammatical": "सक्ताः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "ablative",
+        "incorrect_case": "nominative",
+        "ending_from": "आत्",
+        "ending_to": "ः"
+      },
+      "gram_score": -28.578322052955627,
+      "ungram_score": -16.760817527770996,
+      "margin": -11.817504525184631
+    },
+    {
+      "id": "morph_0022",
+      "phenomenon": "case",
+      "stem": "आश्चर्यवच्चैनमन्य",
+      "grammatical": "आश्चर्यवच्चैनमन्यएन",
+      "ungrammatical": "आश्चर्यवच्चैनमन्यः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "instrumental",
+        "incorrect_case": "nominative",
+        "ending_from": "एन",
+        "ending_to": "ः"
+      },
+      "gram_score": -56.696721671149135,
+      "ungram_score": -44.03386464715004,
+      "margin": -12.662857023999095
+    },
+    {
+      "id": "morph_0024",
+      "phenomenon": "case",
+      "stem": "कृपणा",
+      "grammatical": "कृपणाआय",
+      "ungrammatical": "कृपणाम्",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "dative",
+        "incorrect_case": "accusative",
+        "ending_from": "आय",
+        "ending_to": "म्"
+      },
+      "gram_score": -26.50563335418701,
+      "ungram_score": -22.95893955230713,
+      "margin": -3.546693801879883
+    },
+    {
+      "id": "morph_0025",
+      "phenomenon": "case",
+      "stem": "ज्ञेयमस्माभि",
+      "grammatical": "ज्ञेयमस्माभिएन",
+      "ungrammatical": "ज्ञेयमस्माभिए",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "instrumental",
+        "incorrect_case": "locative",
+        "ending_from": "एन",
+        "ending_to": "ए"
+      },
+      "gram_score": -42.92080376110971,
+      "ungram_score": -40.78195416927338,
+      "margin": -2.1388495918363333
+    },
+    {
+      "id": "morph_0027",
+      "phenomenon": "number",
+      "stem": "महाबाहु",
+      "grammatical": "महाबाहुऔ",
+      "ungrammatical": "महाबाहुआः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "dual",
+        "incorrect_number": "plural",
+        "ending_from": "औ",
+        "ending_to": "आः"
+      },
+      "gram_score": -28.545037388801575,
+      "ungram_score": -24.128173053264618,
+      "margin": -4.416864335536957
+    },
+    {
+      "id": "morph_0028",
+      "phenomenon": "number",
+      "stem": "गुडाकेश",
+      "grammatical": "गुडाकेशआः",
+      "ungrammatical": "गुडाकेशऔ",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "plural",
+        "incorrect_number": "dual",
+        "ending_from": "आः",
+        "ending_to": "औ"
+      },
+      "gram_score": -42.223811745643616,
+      "ungram_score": -39.36898577213287,
+      "margin": -2.854825973510742
+    },
+    {
+      "id": "morph_0029",
+      "phenomenon": "case",
+      "stem": "पितामह",
+      "grammatical": "पितामहएन",
+      "ungrammatical": "पितामहआय",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "instrumental",
+        "incorrect_case": "dative",
+        "ending_from": "एन",
+        "ending_to": "आय"
+      },
+      "gram_score": -29.811582803726196,
+      "ungram_score": -26.253217220306396,
+      "margin": -3.5583655834198
+    },
+    {
+      "id": "morph_0034",
+      "phenomenon": "number",
+      "stem": "इषुभि",
+      "grammatical": "इषुभिआः",
+      "ungrammatical": "इषुभिः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "plural",
+        "incorrect_number": "singular",
+        "ending_from": "आः",
+        "ending_to": "ः"
+      },
+      "gram_score": -34.2735036611557,
+      "ungram_score": -23.09190845489502,
+      "margin": -11.181595206260681
+    },
+    {
+      "id": "morph_0035",
+      "phenomenon": "number",
+      "stem": "विपश्चित",
+      "grammatical": "विपश्चितऔ",
+      "ungrammatical": "विपश्चितः",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "dual",
+        "incorrect_number": "singular",
+        "ending_from": "औ",
+        "ending_to": "ः"
+      },
+      "gram_score": -26.81033730506897,
+      "ungram_score": -17.157974898815155,
+      "margin": -9.652362406253815
+    },
+    {
+      "id": "morph_0037",
+      "phenomenon": "number",
+      "stem": "मनीषिण",
+      "grammatical": "मनीषिणआः",
+      "ungrammatical": "मनीषिणऔ",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "case": "nominative",
+        "correct_number": "plural",
+        "incorrect_number": "dual",
+        "ending_from": "आः",
+        "ending_to": "औ"
+      },
+      "gram_score": -42.17400908470154,
+      "ungram_score": -38.03493905067444,
+      "margin": -4.1390700340271
+    },
+    {
+      "id": "morph_0039",
+      "phenomenon": "case",
+      "stem": "विजानत",
+      "grammatical": "विजानतअस्य",
+      "ungrammatical": "विजानतए",
+      "metadata": {
+        "stem_class": "a-stem",
+        "gender": "masculine",
+        "number": "singular",
+        "correct_case": "genitive",
+        "incorrect_case": "locative",
+        "ending_from": "अस्य",
+        "ending_to": "ए"
+      },
+      "gram_score": -37.98121786117554,
+      "ungram_score": -27.32057809829712,
+      "margin": -10.660639762878418
+    }
+  ]
+}

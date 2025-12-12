@@ -1,0 +1,15 @@
+[
+  {
+    "model": "mbert",
+    "accuracy": 0.42,
+    "total_pairs": 200,
+    "correct_pairs": 84,
+    "by_phenomenon": {
+      "case": 0.4393939393939394,
+      "number": 0.38235294117647056
+    },
+    "by_stem_class": {
+      "a-stem": 0.42
+    }
+  }
+]
