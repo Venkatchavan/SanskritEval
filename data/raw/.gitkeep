@@ -1,0 +1,13 @@
+# Placeholder files to preserve directory structure in git
+
+# data/raw/
+data/raw/.gitkeep
+
+# data/processed/
+data/processed/.gitkeep
+
+# data/benchmarks/
+data/benchmarks/.gitkeep
+
+# reports/
+reports/.gitkeep

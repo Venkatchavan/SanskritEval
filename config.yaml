@@ -1,0 +1,46 @@
+# Configuration file for SanskritEval
+
+# Paths
+data:
+  raw: "data/raw"
+  processed: "data/processed"
+  benchmarks: "data/benchmarks"
+
+# Task A: Sandhi Segmentation
+sandhi:
+  num_samples: 1000
+  min_words: 2
+  max_words: 5
+  output_format: "jsonl"
+
+# Task B: Morphology Contrast Sets
+morphology:
+  num_pairs: 500
+  cases: ["nominative", "accusative", "instrumental", "dative", "ablative", "genitive", "locative", "vocative"]
+  numbers: ["singular", "dual", "plural"]
+  genders: ["masculine", "feminine", "neuter"]
+  output_format: "jsonl"
+
+# Models to evaluate
+models:
+  - name: "gpt-3.5-turbo"
+    provider: "openai"
+    enabled: true
+  - name: "gpt-4"
+    provider: "openai"
+    enabled: false
+  - name: "claude-3-sonnet"
+    provider: "anthropic"
+    enabled: false
+
+# Evaluation settings
+evaluation:
+  batch_size: 10
+  max_retries: 3
+  timeout: 30
+
+# Reporting
+report:
+  output_dir: "reports"
+  formats: ["html", "pdf"]
+  include_plots: true

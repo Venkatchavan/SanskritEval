@@ -1,0 +1,47 @@
+name: sanskriteval
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23.0
+  
+  # Core scientific computing
+  - numpy>=1.24.0
+  - pandas>=2.0.0
+  - scipy>=1.10.0
+  
+  # ML frameworks
+  - pytorch>=2.0.0
+  - pytorch-cuda=11.8  # Adjust based on your CUDA version, or use cpuonly
+  
+  # Jupyter
+  - jupyter>=1.0.0
+  - ipykernel>=6.25.0
+  
+  # Visualization
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.0
+  
+  # Development
+  - black>=23.0.0
+  - pytest>=7.4.0
+  
+  # Pip dependencies not available in conda
+  - pip:
+    - transformers>=4.30.0
+    - datasets>=2.14.0
+    - tokenizers>=0.13.0
+    - indic-transliteration>=2.3.0
+    - sanskrit-nlp>=0.1.0
+    - openai>=1.0.0
+    - anthropic>=0.5.0
+    - google-generativeai>=0.3.0
+    - scikit-learn>=1.3.0
+    - nltk>=3.8.0
+    - tqdm>=4.65.0
+    - jsonlines>=3.1.0
+    - plotly>=5.14.0
+    - python-dotenv>=1.0.0
+    - pyyaml>=6.0
+    - click>=8.1.0
