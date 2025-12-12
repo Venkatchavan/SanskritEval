@@ -1,6 +1,5 @@
 """Data generation and processing modules."""
 
-from .sandhi import SandhiGenerator
-from .morphology import MorphologyGenerator
+from .normalizer import DataNormalizer, NormalizedVerse
 
-__all__ = ["SandhiGenerator", "MorphologyGenerator"]
+__all__ = ["DataNormalizer", "NormalizedVerse"]
